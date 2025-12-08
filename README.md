@@ -1,18 +1,18 @@
-# Lahore Land Surface Temperature Web Application (Google Earth Engine)
+# Punjab Land Surface Temperature Web Application (Google Earth Engine)
 
-This repository contains the Google Earth Engine (GEE) code for a web application that visualises Land Surface Temperature (LST) over Lahore using the MODIS dataset. The app helps users analyse thermal variations and urban heat patterns.
+This repository contains the Google Earth Engine (GEE) code for a web application that visualises Land Surface Temperature (LST) over Punjab using the MODIS dataset. The app helps users analyse thermal variations and urban heat patterns.
 
 ---
 
-## 🔗 Live Web App  
-**URL:** https://raffaysubhani.users.earthengine.app/view/lahore-lst
+## Live Web App  
+**URL:** https://raffaysubhani.users.earthengine.app/view/punjablst
 
 ---
 
 ## Overview
 
-The Lahore LST Web Application enables users to interactively explore surface temperatures through a user-friendly interface.  
-The app integrates MODIS remote sensing data, cloud masking and dynamic UI elements for smooth map visualisation.
+The Punjab LST Web Application enables users to explore surface temperatures through a user-friendly interface.  
+The app integrates MODIS remote sensing data, cloud masking and UI elements for smooth map visualisation.
 
 Key capabilities include:
 - LST display
@@ -23,7 +23,7 @@ Key capabilities include:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 1. **Interactive Date Selection**  
 Select any day to load the corresponding LST image.
@@ -34,15 +34,12 @@ MODIS QA bits are applied to remove low-quality pixels.
 ### 3. **Dynamic Map Rendering**
 Map updates automatically when dates are changed.
 
-### 4. **Automated Legend**
-A clean vertical legend that appears once and updates properly.
-
-### 5. **Lightweight & Fast**
+### 4. **Lightweight & Fast**
 Optimised GEE script ensures smooth performance.
 
 ---
 
-## 🛰 Dataset Used
+## Dataset Used
 
 ### **MODIS MOD11A1 — Land Surface Temperature & Emissivity (Daily)**  
 - **Resolution:** 1 km  
@@ -56,23 +53,22 @@ The dataset is ideal for urban heat analysis and climate-related research.
 
 ---
 
-## 🛠 Technologies & Tools
+## Technologies & Tools
 
 - **Google Earth Engine (JavaScript API)**
 - **MODIS Remote Sensing Data**
 - **GIS & Geospatial Analysis**
-- **GitHub – Version control & documentation**
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
-app.js # Main GEE application script
-README.md # Documentation and project details
+- app.js # Main GEE application script
+- README.md # Documentation and project details
 
 ---
 
-## 🚀 How to Use the Web App
+## How to Use the Web App
 
 1. Open the live application link.  
 2. Select a date from the side panel.  
@@ -82,7 +78,7 @@ README.md # Documentation and project details
 
 ---
 
-## 👨‍💻 How to Run the Code Manually (For Developers)
+## How to Run the Code Manually (For Developers)
 
 1. Open **Google Earth Engine Code Editor**.  
 2. Create a new script.  
@@ -92,16 +88,13 @@ README.md # Documentation and project details
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and free to use, modify, and share with attribution.
 
 ---
 
-## 👤 Author
+## Author
 
 **Raffay Subhani**  
-Remote Sensing & GIS Analyst — Pakistan  
-GitHub: https://github.com/YOUR_GITHUB_USERNAME
-
----
+Email: raffaysubhani9@gmail.com
