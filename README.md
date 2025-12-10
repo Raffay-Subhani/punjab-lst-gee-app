@@ -16,7 +16,6 @@ The app integrates MODIS remote sensing data, cloud masking and UI elements for 
 
 Key capabilities include:
 - LST display
-- Cloud-masked MODIS data
 - Automatic map updates when the date changes
 - Dynamic legend
 - Responsive, minimalistic interface
@@ -28,20 +27,17 @@ Key capabilities include:
 ### 1. **Interactive Date Selection**  
 Select any day to load the corresponding LST image.
 
-### 2. **Cloud Masking**
-MODIS QA bits are applied to remove low-quality pixels.
-
-### 3. **Dynamic Map Rendering**
+### 2. **Dynamic Map Rendering**
 Map updates automatically when dates are changed.
 
-### 4. **Lightweight & Fast**
+### 3. **Lightweight & Fast**
 Optimised GEE script ensures smooth performance.
 
 ---
 
 ## Dataset Used
 
-### **MODIS MOD11A1 — Land Surface Temperature & Emissivity (Daily)**  
+### **MODIS MOD11A1 V6.1 — Land Surface Temperature & Emissivity (Daily)**  
 - **Resolution:** 1 km  
 - **Temporal:** Daily  
 - **Bands Used:**  
